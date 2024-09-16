@@ -1,3 +1,6 @@
+# This could be a dataclass: https://docs.python.org/3/library/dataclasses.html
+# I would also separate this generic class from the year specific data in this file.
+# Maybe put the data in a JSON file.
 class ElectoralCollegeState:
     def __init__(self, abbreviation, electoralPoints, probabilityRed):
         self.abbreviation = abbreviation
